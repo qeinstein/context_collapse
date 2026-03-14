@@ -1,0 +1,8 @@
+condition_label,noise_type,noise_size_target,n_trials,accuracy
+noise_0,random_unrelated,0,40,0.975
+random_250,random_unrelated,250,40,0.975
+similar_250,similar_irrelevant,250,40,0.9
+random_1000,random_unrelated,1000,40,0.975
+similar_1000,similar_irrelevant,1000,40,0.9
+random_4000,random_unrelated,4000,40,0.975
+similar_4000,similar_irrelevant,4000,40,0.95

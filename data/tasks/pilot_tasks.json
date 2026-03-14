@@ -1,0 +1,1012 @@
+[
+  {
+    "task_id": "arith_001",
+    "task_family": "arithmetic",
+    "task_text": "Compute: ((5 + 2) * 2) - 10",
+    "expected_answer": "4",
+    "compliance_rule": "Return only the final number.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "template": "double_sum_minus_c"
+    }
+  },
+  {
+    "task_id": "arith_002",
+    "task_family": "arithmetic",
+    "task_text": "Compute: ((9 + 9) * 2) - 6",
+    "expected_answer": "30",
+    "compliance_rule": "Return only the final number.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "template": "double_sum_minus_c"
+    }
+  },
+  {
+    "task_id": "arith_003",
+    "task_family": "arithmetic",
+    "task_text": "Compute: ((5 + 19) * 2) - 4",
+    "expected_answer": "44",
+    "compliance_rule": "Return only the final number.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "template": "double_sum_minus_c"
+    }
+  },
+  {
+    "task_id": "arith_004",
+    "task_family": "arithmetic",
+    "task_text": "Compute: ((20 + 15) * 2) - 3",
+    "expected_answer": "67",
+    "compliance_rule": "Return only the final number.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "template": "double_sum_minus_c"
+    }
+  },
+  {
+    "task_id": "arith_005",
+    "task_family": "arithmetic",
+    "task_text": "Compute: ((2 + 4) * 2) - 8",
+    "expected_answer": "4",
+    "compliance_rule": "Return only the final number.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "template": "double_sum_minus_c"
+    }
+  },
+  {
+    "task_id": "arith_006",
+    "task_family": "arithmetic",
+    "task_text": "Compute: ((9 + 18) * 2) - 2",
+    "expected_answer": "52",
+    "compliance_rule": "Return only the final number.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "template": "double_sum_minus_c"
+    }
+  },
+  {
+    "task_id": "arith_007",
+    "task_family": "arithmetic",
+    "task_text": "Compute: ((19 + 8) * 2) - 19",
+    "expected_answer": "35",
+    "compliance_rule": "Return only the final number.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "template": "double_sum_minus_c"
+    }
+  },
+  {
+    "task_id": "arith_008",
+    "task_family": "arithmetic",
+    "task_text": "Compute: ((15 + 9) * 2) - 16",
+    "expected_answer": "32",
+    "compliance_rule": "Return only the final number.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "template": "double_sum_minus_c"
+    }
+  },
+  {
+    "task_id": "arith_009",
+    "task_family": "arithmetic",
+    "task_text": "Compute: ((20 + 10) * 2) - 2",
+    "expected_answer": "58",
+    "compliance_rule": "Return only the final number.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "template": "double_sum_minus_c"
+    }
+  },
+  {
+    "task_id": "arith_010",
+    "task_family": "arithmetic",
+    "task_text": "Compute: ((7 + 15) * 2) - 12",
+    "expected_answer": "32",
+    "compliance_rule": "Return only the final number.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "template": "double_sum_minus_c"
+    }
+  },
+  {
+    "task_id": "retr_001",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Oriole was launched in 2020. Its internal codename was HARBOR. The lead engineer was Nia Okafor.\nQuestion: What was the internal codename of Project Oriole?",
+    "expected_answer": "HARBOR",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Oriole",
+      "year": 2020,
+      "lead": "Nia Okafor"
+    }
+  },
+  {
+    "task_id": "retr_002",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Lumen was launched in 2021. Its internal codename was CINDER. The lead engineer was Tomi Adeyemi.\nQuestion: What was the internal codename of Project Lumen?",
+    "expected_answer": "CINDER",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Lumen",
+      "year": 2021,
+      "lead": "Tomi Adeyemi"
+    }
+  },
+  {
+    "task_id": "retr_003",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Kestrel was launched in 2022. Its internal codename was SOLACE. The lead engineer was Maya Chen.\nQuestion: What was the internal codename of Project Kestrel?",
+    "expected_answer": "SOLACE",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Kestrel",
+      "year": 2022,
+      "lead": "Maya Chen"
+    }
+  },
+  {
+    "task_id": "retr_004",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Vanta was launched in 2023. Its internal codename was EMBER. The lead engineer was Ibrahim Bello.\nQuestion: What was the internal codename of Project Vanta?",
+    "expected_answer": "EMBER",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Vanta",
+      "year": 2023,
+      "lead": "Ibrahim Bello"
+    }
+  },
+  {
+    "task_id": "retr_005",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Pillar was launched in 2024. Its internal codename was NOVA. The lead engineer was Ava Singh.\nQuestion: What was the internal codename of Project Pillar?",
+    "expected_answer": "NOVA",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Pillar",
+      "year": 2024,
+      "lead": "Ava Singh"
+    }
+  },
+  {
+    "task_id": "retr_006",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Juniper was launched in 2020. Its internal codename was AURORA. The lead engineer was Lena Park.\nQuestion: What was the internal codename of Project Juniper?",
+    "expected_answer": "AURORA",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Juniper",
+      "year": 2020,
+      "lead": "Lena Park"
+    }
+  },
+  {
+    "task_id": "retr_007",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Nimbus was launched in 2021. Its internal codename was VECTOR. The lead engineer was David Cole.\nQuestion: What was the internal codename of Project Nimbus?",
+    "expected_answer": "VECTOR",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Nimbus",
+      "year": 2021,
+      "lead": "David Cole"
+    }
+  },
+  {
+    "task_id": "retr_008",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Aster was launched in 2022. Its internal codename was SUMMIT. The lead engineer was Zainab Yusuf.\nQuestion: What was the internal codename of Project Aster?",
+    "expected_answer": "SUMMIT",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Aster",
+      "year": 2022,
+      "lead": "Zainab Yusuf"
+    }
+  },
+  {
+    "task_id": "retr_009",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Falcon was launched in 2023. Its internal codename was ECHO. The lead engineer was Noah Grant.\nQuestion: What was the internal codename of Project Falcon?",
+    "expected_answer": "ECHO",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Falcon",
+      "year": 2023,
+      "lead": "Noah Grant"
+    }
+  },
+  {
+    "task_id": "retr_010",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Atlas was launched in 2024. Its internal codename was QUARRY. The lead engineer was Sara Kim.\nQuestion: What was the internal codename of Project Atlas?",
+    "expected_answer": "QUARRY",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Atlas",
+      "year": 2024,
+      "lead": "Sara Kim"
+    }
+  },
+  {
+    "task_id": "retr_011",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Oriole was launched in 2020. Its internal codename was HARBOR. The lead engineer was Nia Okafor.\nQuestion: What was the internal codename of Project Oriole?",
+    "expected_answer": "HARBOR",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Oriole",
+      "year": 2020,
+      "lead": "Nia Okafor"
+    }
+  },
+  {
+    "task_id": "retr_012",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Lumen was launched in 2021. Its internal codename was CINDER. The lead engineer was Tomi Adeyemi.\nQuestion: What was the internal codename of Project Lumen?",
+    "expected_answer": "CINDER",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Lumen",
+      "year": 2021,
+      "lead": "Tomi Adeyemi"
+    }
+  },
+  {
+    "task_id": "retr_013",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Kestrel was launched in 2022. Its internal codename was SOLACE. The lead engineer was Maya Chen.\nQuestion: What was the internal codename of Project Kestrel?",
+    "expected_answer": "SOLACE",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Kestrel",
+      "year": 2022,
+      "lead": "Maya Chen"
+    }
+  },
+  {
+    "task_id": "retr_014",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Vanta was launched in 2023. Its internal codename was EMBER. The lead engineer was Ibrahim Bello.\nQuestion: What was the internal codename of Project Vanta?",
+    "expected_answer": "EMBER",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Vanta",
+      "year": 2023,
+      "lead": "Ibrahim Bello"
+    }
+  },
+  {
+    "task_id": "retr_015",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Pillar was launched in 2024. Its internal codename was NOVA. The lead engineer was Ava Singh.\nQuestion: What was the internal codename of Project Pillar?",
+    "expected_answer": "NOVA",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Pillar",
+      "year": 2024,
+      "lead": "Ava Singh"
+    }
+  },
+  {
+    "task_id": "retr_016",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Juniper was launched in 2020. Its internal codename was AURORA. The lead engineer was Lena Park.\nQuestion: What was the internal codename of Project Juniper?",
+    "expected_answer": "AURORA",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Juniper",
+      "year": 2020,
+      "lead": "Lena Park"
+    }
+  },
+  {
+    "task_id": "retr_017",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Nimbus was launched in 2021. Its internal codename was VECTOR. The lead engineer was David Cole.\nQuestion: What was the internal codename of Project Nimbus?",
+    "expected_answer": "VECTOR",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Nimbus",
+      "year": 2021,
+      "lead": "David Cole"
+    }
+  },
+  {
+    "task_id": "retr_018",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Aster was launched in 2022. Its internal codename was SUMMIT. The lead engineer was Zainab Yusuf.\nQuestion: What was the internal codename of Project Aster?",
+    "expected_answer": "SUMMIT",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Aster",
+      "year": 2022,
+      "lead": "Zainab Yusuf"
+    }
+  },
+  {
+    "task_id": "retr_019",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Falcon was launched in 2023. Its internal codename was ECHO. The lead engineer was Noah Grant.\nQuestion: What was the internal codename of Project Falcon?",
+    "expected_answer": "ECHO",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Falcon",
+      "year": 2023,
+      "lead": "Noah Grant"
+    }
+  },
+  {
+    "task_id": "retr_020",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Atlas was launched in 2024. Its internal codename was QUARRY. The lead engineer was Sara Kim.\nQuestion: What was the internal codename of Project Atlas?",
+    "expected_answer": "QUARRY",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Atlas",
+      "year": 2024,
+      "lead": "Sara Kim"
+    }
+  },
+  {
+    "task_id": "retr_021",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Oriole was launched in 2020. Its internal codename was HARBOR. The lead engineer was Nia Okafor.\nQuestion: What was the internal codename of Project Oriole?",
+    "expected_answer": "HARBOR",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Oriole",
+      "year": 2020,
+      "lead": "Nia Okafor"
+    }
+  },
+  {
+    "task_id": "retr_022",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Lumen was launched in 2021. Its internal codename was CINDER. The lead engineer was Tomi Adeyemi.\nQuestion: What was the internal codename of Project Lumen?",
+    "expected_answer": "CINDER",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Lumen",
+      "year": 2021,
+      "lead": "Tomi Adeyemi"
+    }
+  },
+  {
+    "task_id": "retr_023",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Kestrel was launched in 2022. Its internal codename was SOLACE. The lead engineer was Maya Chen.\nQuestion: What was the internal codename of Project Kestrel?",
+    "expected_answer": "SOLACE",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Kestrel",
+      "year": 2022,
+      "lead": "Maya Chen"
+    }
+  },
+  {
+    "task_id": "retr_024",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Vanta was launched in 2023. Its internal codename was EMBER. The lead engineer was Ibrahim Bello.\nQuestion: What was the internal codename of Project Vanta?",
+    "expected_answer": "EMBER",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Vanta",
+      "year": 2023,
+      "lead": "Ibrahim Bello"
+    }
+  },
+  {
+    "task_id": "retr_025",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Pillar was launched in 2024. Its internal codename was NOVA. The lead engineer was Ava Singh.\nQuestion: What was the internal codename of Project Pillar?",
+    "expected_answer": "NOVA",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Pillar",
+      "year": 2024,
+      "lead": "Ava Singh"
+    }
+  },
+  {
+    "task_id": "retr_026",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Juniper was launched in 2020. Its internal codename was AURORA. The lead engineer was Lena Park.\nQuestion: What was the internal codename of Project Juniper?",
+    "expected_answer": "AURORA",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Juniper",
+      "year": 2020,
+      "lead": "Lena Park"
+    }
+  },
+  {
+    "task_id": "retr_027",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Nimbus was launched in 2021. Its internal codename was VECTOR. The lead engineer was David Cole.\nQuestion: What was the internal codename of Project Nimbus?",
+    "expected_answer": "VECTOR",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Nimbus",
+      "year": 2021,
+      "lead": "David Cole"
+    }
+  },
+  {
+    "task_id": "retr_028",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Aster was launched in 2022. Its internal codename was SUMMIT. The lead engineer was Zainab Yusuf.\nQuestion: What was the internal codename of Project Aster?",
+    "expected_answer": "SUMMIT",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Aster",
+      "year": 2022,
+      "lead": "Zainab Yusuf"
+    }
+  },
+  {
+    "task_id": "retr_029",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Falcon was launched in 2023. Its internal codename was ECHO. The lead engineer was Noah Grant.\nQuestion: What was the internal codename of Project Falcon?",
+    "expected_answer": "ECHO",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Falcon",
+      "year": 2023,
+      "lead": "Noah Grant"
+    }
+  },
+  {
+    "task_id": "retr_030",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Atlas was launched in 2024. Its internal codename was QUARRY. The lead engineer was Sara Kim.\nQuestion: What was the internal codename of Project Atlas?",
+    "expected_answer": "QUARRY",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Atlas",
+      "year": 2024,
+      "lead": "Sara Kim"
+    }
+  },
+  {
+    "task_id": "retr_031",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Oriole was launched in 2020. Its internal codename was HARBOR. The lead engineer was Nia Okafor.\nQuestion: What was the internal codename of Project Oriole?",
+    "expected_answer": "HARBOR",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Oriole",
+      "year": 2020,
+      "lead": "Nia Okafor"
+    }
+  },
+  {
+    "task_id": "retr_032",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Lumen was launched in 2021. Its internal codename was CINDER. The lead engineer was Tomi Adeyemi.\nQuestion: What was the internal codename of Project Lumen?",
+    "expected_answer": "CINDER",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Lumen",
+      "year": 2021,
+      "lead": "Tomi Adeyemi"
+    }
+  },
+  {
+    "task_id": "retr_033",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Kestrel was launched in 2022. Its internal codename was SOLACE. The lead engineer was Maya Chen.\nQuestion: What was the internal codename of Project Kestrel?",
+    "expected_answer": "SOLACE",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Kestrel",
+      "year": 2022,
+      "lead": "Maya Chen"
+    }
+  },
+  {
+    "task_id": "retr_034",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Vanta was launched in 2023. Its internal codename was EMBER. The lead engineer was Ibrahim Bello.\nQuestion: What was the internal codename of Project Vanta?",
+    "expected_answer": "EMBER",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Vanta",
+      "year": 2023,
+      "lead": "Ibrahim Bello"
+    }
+  },
+  {
+    "task_id": "retr_035",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Pillar was launched in 2024. Its internal codename was NOVA. The lead engineer was Ava Singh.\nQuestion: What was the internal codename of Project Pillar?",
+    "expected_answer": "NOVA",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Pillar",
+      "year": 2024,
+      "lead": "Ava Singh"
+    }
+  },
+  {
+    "task_id": "retr_036",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Juniper was launched in 2020. Its internal codename was AURORA. The lead engineer was Lena Park.\nQuestion: What was the internal codename of Project Juniper?",
+    "expected_answer": "AURORA",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Juniper",
+      "year": 2020,
+      "lead": "Lena Park"
+    }
+  },
+  {
+    "task_id": "retr_037",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Nimbus was launched in 2021. Its internal codename was VECTOR. The lead engineer was David Cole.\nQuestion: What was the internal codename of Project Nimbus?",
+    "expected_answer": "VECTOR",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Nimbus",
+      "year": 2021,
+      "lead": "David Cole"
+    }
+  },
+  {
+    "task_id": "retr_038",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Aster was launched in 2022. Its internal codename was SUMMIT. The lead engineer was Zainab Yusuf.\nQuestion: What was the internal codename of Project Aster?",
+    "expected_answer": "SUMMIT",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Aster",
+      "year": 2022,
+      "lead": "Zainab Yusuf"
+    }
+  },
+  {
+    "task_id": "retr_039",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Falcon was launched in 2023. Its internal codename was ECHO. The lead engineer was Noah Grant.\nQuestion: What was the internal codename of Project Falcon?",
+    "expected_answer": "ECHO",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Falcon",
+      "year": 2023,
+      "lead": "Noah Grant"
+    }
+  },
+  {
+    "task_id": "retr_040",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Atlas was launched in 2024. Its internal codename was QUARRY. The lead engineer was Sara Kim.\nQuestion: What was the internal codename of Project Atlas?",
+    "expected_answer": "QUARRY",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Atlas",
+      "year": 2024,
+      "lead": "Sara Kim"
+    }
+  },
+  {
+    "task_id": "retr_041",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Oriole was launched in 2020. Its internal codename was HARBOR. The lead engineer was Nia Okafor.\nQuestion: What was the internal codename of Project Oriole?",
+    "expected_answer": "HARBOR",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Oriole",
+      "year": 2020,
+      "lead": "Nia Okafor"
+    }
+  },
+  {
+    "task_id": "retr_042",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Lumen was launched in 2021. Its internal codename was CINDER. The lead engineer was Tomi Adeyemi.\nQuestion: What was the internal codename of Project Lumen?",
+    "expected_answer": "CINDER",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Lumen",
+      "year": 2021,
+      "lead": "Tomi Adeyemi"
+    }
+  },
+  {
+    "task_id": "retr_043",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Kestrel was launched in 2022. Its internal codename was SOLACE. The lead engineer was Maya Chen.\nQuestion: What was the internal codename of Project Kestrel?",
+    "expected_answer": "SOLACE",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Kestrel",
+      "year": 2022,
+      "lead": "Maya Chen"
+    }
+  },
+  {
+    "task_id": "retr_044",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Vanta was launched in 2023. Its internal codename was EMBER. The lead engineer was Ibrahim Bello.\nQuestion: What was the internal codename of Project Vanta?",
+    "expected_answer": "EMBER",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Vanta",
+      "year": 2023,
+      "lead": "Ibrahim Bello"
+    }
+  },
+  {
+    "task_id": "retr_045",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Pillar was launched in 2024. Its internal codename was NOVA. The lead engineer was Ava Singh.\nQuestion: What was the internal codename of Project Pillar?",
+    "expected_answer": "NOVA",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Pillar",
+      "year": 2024,
+      "lead": "Ava Singh"
+    }
+  },
+  {
+    "task_id": "retr_046",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Juniper was launched in 2020. Its internal codename was AURORA. The lead engineer was Lena Park.\nQuestion: What was the internal codename of Project Juniper?",
+    "expected_answer": "AURORA",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Juniper",
+      "year": 2020,
+      "lead": "Lena Park"
+    }
+  },
+  {
+    "task_id": "retr_047",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Nimbus was launched in 2021. Its internal codename was VECTOR. The lead engineer was David Cole.\nQuestion: What was the internal codename of Project Nimbus?",
+    "expected_answer": "VECTOR",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Nimbus",
+      "year": 2021,
+      "lead": "David Cole"
+    }
+  },
+  {
+    "task_id": "retr_048",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Aster was launched in 2022. Its internal codename was SUMMIT. The lead engineer was Zainab Yusuf.\nQuestion: What was the internal codename of Project Aster?",
+    "expected_answer": "SUMMIT",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Aster",
+      "year": 2022,
+      "lead": "Zainab Yusuf"
+    }
+  },
+  {
+    "task_id": "retr_049",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Falcon was launched in 2023. Its internal codename was ECHO. The lead engineer was Noah Grant.\nQuestion: What was the internal codename of Project Falcon?",
+    "expected_answer": "ECHO",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Falcon",
+      "year": 2023,
+      "lead": "Noah Grant"
+    }
+  },
+  {
+    "task_id": "retr_050",
+    "task_family": "retrieval",
+    "task_text": "Passage: Project Atlas was launched in 2024. Its internal codename was QUARRY. The lead engineer was Sara Kim.\nQuestion: What was the internal codename of Project Atlas?",
+    "expected_answer": "QUARRY",
+    "compliance_rule": "Return only the codename.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "project": "Atlas",
+      "year": 2024,
+      "lead": "Sara Kim"
+    }
+  },
+  {
+    "task_id": "logic_001",
+    "task_family": "logic",
+    "task_text": "Ava is older than Ben.\nBen is older than Chidi.\nWho is the oldest?",
+    "expected_answer": "Ava",
+    "compliance_rule": "Return only the name.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "template": "transitive_age"
+    }
+  },
+  {
+    "task_id": "logic_002",
+    "task_family": "logic",
+    "task_text": "Ben is older than Chidi.\nChidi is older than Dami.\nWho is the oldest?",
+    "expected_answer": "Ben",
+    "compliance_rule": "Return only the name.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "template": "transitive_age"
+    }
+  },
+  {
+    "task_id": "logic_003",
+    "task_family": "logic",
+    "task_text": "Chidi is older than Dami.\nDami is older than Esi.\nWho is the oldest?",
+    "expected_answer": "Chidi",
+    "compliance_rule": "Return only the name.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "template": "transitive_age"
+    }
+  },
+  {
+    "task_id": "logic_004",
+    "task_family": "logic",
+    "task_text": "Dami is older than Esi.\nEsi is older than Femi.\nWho is the oldest?",
+    "expected_answer": "Dami",
+    "compliance_rule": "Return only the name.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "template": "transitive_age"
+    }
+  },
+  {
+    "task_id": "logic_005",
+    "task_family": "logic",
+    "task_text": "Esi is older than Femi.\nFemi is older than Ava.\nWho is the oldest?",
+    "expected_answer": "Esi",
+    "compliance_rule": "Return only the name.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "template": "transitive_age"
+    }
+  },
+  {
+    "task_id": "logic_006",
+    "task_family": "logic",
+    "task_text": "Femi is older than Ava.\nAva is older than Ben.\nWho is the oldest?",
+    "expected_answer": "Femi",
+    "compliance_rule": "Return only the name.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "template": "transitive_age"
+    }
+  },
+  {
+    "task_id": "logic_007",
+    "task_family": "logic",
+    "task_text": "Ava is older than Ben.\nBen is older than Chidi.\nWho is the oldest?",
+    "expected_answer": "Ava",
+    "compliance_rule": "Return only the name.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "template": "transitive_age"
+    }
+  },
+  {
+    "task_id": "logic_008",
+    "task_family": "logic",
+    "task_text": "Ben is older than Chidi.\nChidi is older than Dami.\nWho is the oldest?",
+    "expected_answer": "Ben",
+    "compliance_rule": "Return only the name.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "template": "transitive_age"
+    }
+  },
+  {
+    "task_id": "logic_009",
+    "task_family": "logic",
+    "task_text": "Chidi is older than Dami.\nDami is older than Esi.\nWho is the oldest?",
+    "expected_answer": "Chidi",
+    "compliance_rule": "Return only the name.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "template": "transitive_age"
+    }
+  },
+  {
+    "task_id": "logic_010",
+    "task_family": "logic",
+    "task_text": "Dami is older than Esi.\nEsi is older than Femi.\nWho is the oldest?",
+    "expected_answer": "Dami",
+    "compliance_rule": "Return only the name.",
+    "allowed_answer_set": null,
+    "metadata": {
+      "template": "transitive_age"
+    }
+  },
+  {
+    "task_id": "instr_001",
+    "task_family": "instruction",
+    "task_text": "If the number is even, answer ALPHA. If the number is odd, answer BETA.\nNumber: 36",
+    "expected_answer": "ALPHA",
+    "compliance_rule": "Return exactly one token: ALPHA or BETA.",
+    "allowed_answer_set": [
+      "ALPHA",
+      "BETA"
+    ],
+    "metadata": {
+      "value": 36
+    }
+  },
+  {
+    "task_id": "instr_002",
+    "task_family": "instruction",
+    "task_text": "If the number is even, answer ALPHA. If the number is odd, answer BETA.\nNumber: 20",
+    "expected_answer": "ALPHA",
+    "compliance_rule": "Return exactly one token: ALPHA or BETA.",
+    "allowed_answer_set": [
+      "ALPHA",
+      "BETA"
+    ],
+    "metadata": {
+      "value": 20
+    }
+  },
+  {
+    "task_id": "instr_003",
+    "task_family": "instruction",
+    "task_text": "If the number is even, answer ALPHA. If the number is odd, answer BETA.\nNumber: 28",
+    "expected_answer": "ALPHA",
+    "compliance_rule": "Return exactly one token: ALPHA or BETA.",
+    "allowed_answer_set": [
+      "ALPHA",
+      "BETA"
+    ],
+    "metadata": {
+      "value": 28
+    }
+  },
+  {
+    "task_id": "instr_004",
+    "task_family": "instruction",
+    "task_text": "If the number is even, answer ALPHA. If the number is odd, answer BETA.\nNumber: 98",
+    "expected_answer": "ALPHA",
+    "compliance_rule": "Return exactly one token: ALPHA or BETA.",
+    "allowed_answer_set": [
+      "ALPHA",
+      "BETA"
+    ],
+    "metadata": {
+      "value": 98
+    }
+  },
+  {
+    "task_id": "instr_005",
+    "task_family": "instruction",
+    "task_text": "If the number is even, answer ALPHA. If the number is odd, answer BETA.\nNumber: 44",
+    "expected_answer": "ALPHA",
+    "compliance_rule": "Return exactly one token: ALPHA or BETA.",
+    "allowed_answer_set": [
+      "ALPHA",
+      "BETA"
+    ],
+    "metadata": {
+      "value": 44
+    }
+  },
+  {
+    "task_id": "instr_006",
+    "task_family": "instruction",
+    "task_text": "If the number is even, answer ALPHA. If the number is odd, answer BETA.\nNumber: 14",
+    "expected_answer": "ALPHA",
+    "compliance_rule": "Return exactly one token: ALPHA or BETA.",
+    "allowed_answer_set": [
+      "ALPHA",
+      "BETA"
+    ],
+    "metadata": {
+      "value": 14
+    }
+  },
+  {
+    "task_id": "instr_007",
+    "task_family": "instruction",
+    "task_text": "If the number is even, answer ALPHA. If the number is odd, answer BETA.\nNumber: 12",
+    "expected_answer": "ALPHA",
+    "compliance_rule": "Return exactly one token: ALPHA or BETA.",
+    "allowed_answer_set": [
+      "ALPHA",
+      "BETA"
+    ],
+    "metadata": {
+      "value": 12
+    }
+  },
+  {
+    "task_id": "instr_008",
+    "task_family": "instruction",
+    "task_text": "If the number is even, answer ALPHA. If the number is odd, answer BETA.\nNumber: 49",
+    "expected_answer": "BETA",
+    "compliance_rule": "Return exactly one token: ALPHA or BETA.",
+    "allowed_answer_set": [
+      "ALPHA",
+      "BETA"
+    ],
+    "metadata": {
+      "value": 49
+    }
+  },
+  {
+    "task_id": "instr_009",
+    "task_family": "instruction",
+    "task_text": "If the number is even, answer ALPHA. If the number is odd, answer BETA.\nNumber: 13",
+    "expected_answer": "BETA",
+    "compliance_rule": "Return exactly one token: ALPHA or BETA.",
+    "allowed_answer_set": [
+      "ALPHA",
+      "BETA"
+    ],
+    "metadata": {
+      "value": 13
+    }
+  },
+  {
+    "task_id": "instr_010",
+    "task_family": "instruction",
+    "task_text": "If the number is even, answer ALPHA. If the number is odd, answer BETA.\nNumber: 46",
+    "expected_answer": "ALPHA",
+    "compliance_rule": "Return exactly one token: ALPHA or BETA.",
+    "allowed_answer_set": [
+      "ALPHA",
+      "BETA"
+    ],
+    "metadata": {
+      "value": 46
+    }
+  }
+]

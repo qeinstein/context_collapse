@@ -1,0 +1,26 @@
+{
+  "run_file": "data/runs/a1b3b36a-ce7c-4a9b-b8a0-37c77beb1538.jsonl",
+  "rows": 560,
+  "correct": 526,
+  "compliant": 560,
+  "family_counts": {
+    "arithmetic": 70,
+    "instruction": 70,
+    "logic": 70,
+    "retrieval": 350
+  },
+  "condition_counts": {
+    "noise_0": 80,
+    "random_1000": 80,
+    "random_250": 80,
+    "random_4000": 80,
+    "similar_1000": 80,
+    "similar_250": 80,
+    "similar_4000": 80
+  },
+  "unique_tasks": 80,
+  "min_task_repeats": 7,
+  "max_task_repeats": 7,
+  "incorrect_rows": 34,
+  "noncompliant_rows": 0
+}

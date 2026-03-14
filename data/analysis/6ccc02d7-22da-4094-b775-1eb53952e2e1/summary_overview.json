@@ -1,0 +1,28 @@
+{
+  "run_file": "data/runs/6ccc02d7-22da-4094-b775-1eb53952e2e1.jsonl",
+  "run_id": "6ccc02d7-22da-4094-b775-1eb53952e2e1",
+  "total_rows": 280,
+  "total_correct": 266,
+  "total_incorrect": 14,
+  "total_compliant": 280,
+  "total_noncompliant": 0,
+  "overall_accuracy": 0.95,
+  "overall_compliance": 1.0,
+  "mean_latency_ms": 1484.745893475029,
+  "median_latency_ms": 1326.3536030008254,
+  "task_families": [
+    "arithmetic",
+    "instruction",
+    "logic",
+    "retrieval"
+  ],
+  "conditions": [
+    "noise_0",
+    "random_1000",
+    "random_250",
+    "random_4000",
+    "similar_1000",
+    "similar_250",
+    "similar_4000"
+  ]
+}

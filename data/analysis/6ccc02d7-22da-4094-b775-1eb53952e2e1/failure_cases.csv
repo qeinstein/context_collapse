@@ -1,0 +1,15 @@
+task_id,task_family,condition_label,noise_type,noise_size_target,expected_answer,raw_response,normalized_response,is_correct,is_compliant,error_category,latency_ms
+retr_002,retrieval,similar_250,similar_irrelevant,250,CINDER,SUMMIT,SUMMIT,False,True,E2,1817.976548999468
+arith_007,arithmetic,similar_250,similar_irrelevant,250,35,34,34,False,True,E2,1815.7164499998544
+retr_003,retrieval,similar_1000,similar_irrelevant,1000,SOLACE,VECTOR,VECTOR,False,True,E2,827.8053080002792
+arith_010,arithmetic,random_1000,random_unrelated,1000,32,34,34,False,True,E2,1026.8796370000928
+arith_010,arithmetic,random_4000,random_unrelated,4000,32,34,34,False,True,E2,1730.4969810002149
+arith_007,arithmetic,similar_1000,similar_irrelevant,1000,35,34,34,False,True,E2,904.5716270002231
+retr_003,retrieval,similar_250,similar_irrelevant,250,SOLACE,VECTOR,VECTOR,False,True,E2,823.115389999657
+retr_002,retrieval,similar_1000,similar_irrelevant,1000,CINDER,SUMMIT,SUMMIT,False,True,E2,1238.902613999926
+retr_006,retrieval,similar_4000,similar_irrelevant,4000,AURORA,QUARRY,QUARRY,False,True,E2,1504.2296490000808
+arith_010,arithmetic,random_250,random_unrelated,250,32,34,34,False,True,E2,996.9609159998072
+retr_006,retrieval,similar_250,similar_irrelevant,250,AURORA,QUARRY,QUARRY,False,True,E2,1565.155830000549
+arith_009,arithmetic,similar_4000,similar_irrelevant,4000,58,56,56,False,True,E2,2665.32357000051
+arith_010,arithmetic,similar_1000,similar_irrelevant,1000,32,34,34,False,True,E2,1109.4880450000346
+arith_010,arithmetic,noise_0,random_unrelated,0,32,34,34,False,True,E2,1422.1848589995716

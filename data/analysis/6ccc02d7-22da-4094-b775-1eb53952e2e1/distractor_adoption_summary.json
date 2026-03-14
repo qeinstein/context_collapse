@@ -1,0 +1,11 @@
+{
+  "run_file": "data/runs/6ccc02d7-22da-4094-b775-1eb53952e2e1.jsonl",
+  "total_trials": 280,
+  "total_incorrect": 14,
+  "total_distractor_adoptions": 6,
+  "overall_distractor_adoption_rate": 0.02142857142857143,
+  "retrieval_trials": 70,
+  "retrieval_incorrect": 6,
+  "retrieval_distractor_adoptions": 6,
+  "retrieval_distractor_adoption_rate": 0.08571428571428572
+}

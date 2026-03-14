@@ -1,0 +1,8 @@
+condition_label,noise_type,noise_size_target,n_trials,n_incorrect,distractor_adoptions,distractor_adoption_rate
+noise_0,random_unrelated,0,10,0,0,0.0
+random_250,random_unrelated,250,10,0,0,0.0
+similar_250,similar_irrelevant,250,10,3,3,0.3
+random_1000,random_unrelated,1000,10,0,0,0.0
+similar_1000,similar_irrelevant,1000,10,2,2,0.2
+random_4000,random_unrelated,4000,10,0,0,0.0
+similar_4000,similar_irrelevant,4000,10,1,1,0.1

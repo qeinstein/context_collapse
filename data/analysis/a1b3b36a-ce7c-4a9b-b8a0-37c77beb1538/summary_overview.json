@@ -1,0 +1,30 @@
+{
+  "total_rows": 560,
+  "total_correct": 526,
+  "total_incorrect": 34,
+  "total_compliant": 560,
+  "total_noncompliant": 0,
+  "overall_accuracy": 0.9392857142857143,
+  "overall_compliance": 1.0,
+  "mean_latency_ms": 1825.2802242696166,
+  "median_latency_ms": 1586.2356469997394,
+  "task_families": [
+    "arithmetic",
+    "instruction",
+    "logic",
+    "retrieval"
+  ],
+  "conditions": [
+    "noise_0",
+    "random_1000",
+    "random_250",
+    "random_4000",
+    "similar_1000",
+    "similar_250",
+    "similar_4000"
+  ],
+  "retrieval_trials": 350,
+  "retrieval_incorrect": 24,
+  "retrieval_distractor_adoptions": 24,
+  "retrieval_distractor_adoption_rate": 0.06857142857142857
+}
